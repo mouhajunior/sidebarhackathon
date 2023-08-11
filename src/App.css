@@ -1,38 +1,212 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.sidebar{
+  background: #000;
+  color: #fff;
+  height: 100vh;
+ 
+  width: 200px;
+  transition: all 0.5s;
+  margin-left: -1.1%;
+  margin-top: 8.4%;
+  position: fixed;
+  z-index: 100;
+  
+
+ 
+}
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; 
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  z-index: 100; 
 }
 
-.App-link {
-  color: #61dafb;
+main{
+  width: 100%;
+  padding: 20px;
+  margin-left: 5%;
+  margin-top: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top_section{
+  display: flex;
+  align-items:center;
+  padding:20px 15px;
 }
+.logo{
+  font-size: 20px;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 60px;
+}
+.link{
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background:rgb(6, 173, 0);
+  color: #ffffff;
+  transition: all 0.5s;
+}
+.active{
+  background:rgb(6, 173, 0);
+  color: #000;
+}
+.icon, .link_text{
+  font-size: 20px;
+}
+
+
+
+
+@media (min-width:425px) and (max-width:767px){
+  .liste_assoc{
+    margin-bottom: 20%;
+    }
+
+  .bouton_ajout{
+    margin-bottom: 10%;
+  }
+
+  .recherche{
+     justify-content: left;
+     position: relative;
+     left: -165%;
+     width: 267%;
+  
+  }
+ 
+.rechercher{
+  width: 300px;
+}
+.card1{
+  width: 94%;
+  margin-left: 5%;
+  
+}
+/* .table_accueil{
+  width: 50px;
+} */
+.sidebar{
+  margin-left: -3%;
+}
+
+.fleche1{
+  position: absolute;
+  top: 56%;
+  left: 80%;
+  
+}
+
+.recherche_navbar{
+  margin-left: 98px;
+}
+.cloche1{
+  float: right;
+  position: absolute;
+  top: 83%;
+  left: 93%;
+}
+.cloche{
+  float: right;
+  position: absolute;
+  top: 83%;
+  left: 90%;
+}
+.about{
+
+}
+
+.recherche_associer{
+  margin-top: 15%;
+  margin-right: 65px;
+  
+}
+
+/* .nprof{
+  width: 200px;
+  height: 30px;
+  
+} */
+
+.mytable{
+  width: 50%;
+  font-size: 10px;
+  margin-left: -40px;
+ position: relative;
+ left: -5%;
+}
+
+.mytbody{
+  font-size: 12px;
+}
+
+.btnplus{
+  font-size: 5px;
+  position: absolute;
+ 
+}
+
+.trash{
+  font-size: 10px;
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 2px;
+
+  
+}
+.trash2{
+  font-size: 12px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+  
+}
+.trashh{
+margin: 6%;
+  
+}
+
+.faplus{
+  font-size: 40px;
+}
+
+.sidebar{
+  
+  margin-top: 22%;
+  position: fixed;
+  z-index: 100;
+
+ 
+}
+
+main{
+ 
+  margin-top: 25%;
+  margin-left: 8%;
+}
+
+}
+
+
+
+
+
